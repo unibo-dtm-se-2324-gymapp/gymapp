@@ -1,4 +1,4 @@
 #The gym application
-
-An easy way to schedule your training.
+Hello! 
+This is an easy way to schedule your training.
 
