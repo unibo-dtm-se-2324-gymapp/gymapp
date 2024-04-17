@@ -2,6 +2,10 @@ As a potential user of this app,
 I want to subscribe to it;
 so that I can start to plan my training session.
 
+As a user,
+I want to be able to visualize my account;
+so that I can see what I have inserted into it.
+
 As a user of this app,
 I want to be able to add as many training sessions I wish to;
 so that I can train any part of my body.
