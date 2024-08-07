@@ -58,16 +58,17 @@ The spaces of the grid need to be filled out with the name of the exercise, the 
 ## Behaviour
 - This section explains the possible states that the system can be in and the events that cause the transition from one state to another, for instance using UML state diagrams
 <h3>Flowchart diagram</h3>
-<b>Start:</b> After the first login, the app is empty, with no training sessions at all.
-<b>Training session creation:</b> The user decide to create his/her first training session.
-<b>Modification of a training sessions:</b> The user can modify the training session by inserting or removing one or more exercises 
+<b>Start:</b> After the first login, the app is empty, with no training sessions at all.<br>
+<b>Training session creation:</b> The user decide to create his/her first training session.<br>
+<b>Modification of a training sessions:</b> The user can modify the training session by inserting or removing one or more exercises <br>
 <b>Modification of an exercise:</b> The user can modify also just an exercise by entering in a training session and perform changes on the various section of the exercise grid.
 
 ## Data-related aspects
 - This section explains all the details related to the data, for instance:
     - Data schema
     - Data persistence technologies (if used), for example: MySQL, MongoDB, ...
-User table:Containing all the users'data
-Training session table: Containing all the training sessions created by a single user
-Exercise table: Containing all the exercises inserted in the various training session by the user.
+<br>
+<b>User table:</B>Containing all the users'data
+<b>Training session table:</b>Containing all the training sessions created by a single user
+<b>Exercise table:</b> Containing all the exercises inserted in the various training session by the user.
 
