@@ -39,3 +39,8 @@ Requirement: The application must be easy to use and an action can be done with 
 <h5>Customization</h5>
 Requirement: The application is thought for being as much adaptable as possible to the users' desires and needs with neither limits concerning the number of exercises they can do during a session nor concerning the reps or the series.
 
+<h5>Security</h5>
+Requirement: The application must keep safe user's data by implementing cryptography and other safety measures
+
+<h5>Compatibility</h5>
+Requirement: The application must be compatible with the majority of browsers and mobile devices
