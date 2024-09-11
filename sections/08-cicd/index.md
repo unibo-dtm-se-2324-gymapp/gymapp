@@ -27,28 +27,31 @@ CI/CD Pipeline Configuration
 Workflow Definition:
 The pipeline uses GitHub Actions and is defined in the .github/workflows directory of both the frontend and backend repositories. The backend is built with FastAPI, and the frontend uses Vue.js.
 
+We as developers used source code management(like GitHub and gitlab) and in this case we used github for creating a new repository with shared code, then we have the build process where the application gets compiled and then it runs the package installations, then releases pipeline which deploys the app to a web server for example, we need ci/cd system making sure our application doesn’t have bugs or abnormalities, and with automated control and updates, not only will it reduce time but also increase efficiency compared to doing it by humans.
+We created a file which is a GitHub Actions workflow configuration written in YAML, designed for automated deployment of an application. Let us break it down of its purpose and key steps:
+
 Workflow Triggers:
 
 The CI/CD workflow is triggered by events like pushes to the main branch and pull requests targeting the main branch.
 
 Job Structure for Backend (FastAPI)
-...
+
 
 Python Environment: Sets up Python (compatible with FastAPI).
 Dependencies: Poetry manages dependencies.
 Testing: Runs backend tests using pytest.
-...
 
 Build and Deploy: The FastAPI backend is built, deployed to TestPyPI, and a GitHub release is created.
 
 Job Structure for Frontend (Vue.js)
-...
 
 Node.js Environment: Set up for Vue.js.
 Dependencies: Uses npm for package management.
 Testing: Runs frontend tests.
 Build: Builds the Vue.js frontend application.
-...
+
+
+<img width="869" alt="Screenshot 2024-09-11 alle 21 53 27" src="https://github.com/user-attachments/assets/9c550bc2-40d1-4f27-96d8-5a509a03d90a">
 
 This updated CI/CD pipeline is customized for the "Six Pack" application, ensuring that both the FastAPI backend and Vue.js frontend are tested, built, and deployed seamlessly.
 This updated CI/CD pipeline is tailored specifically for the "Six Pack" application, which helps users organize their workout sessions by specifying daily exercises, the number of series, and reps. The pipeline ensures that both the FastAPI backend and the Vue.js frontend are consistently tested, built, and deployed seamlessly.
