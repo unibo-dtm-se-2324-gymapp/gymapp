@@ -51,3 +51,8 @@ Build: Builds the Vue.js frontend application.
 ...
 
 This updated CI/CD pipeline is customized for the "Six Pack" application, ensuring that both the FastAPI backend and Vue.js frontend are tested, built, and deployed seamlessly.
+This updated CI/CD pipeline is tailored specifically for the "Six Pack" application, which helps users organize their workout sessions by specifying daily exercises, the number of series, and reps. The pipeline ensures that both the FastAPI backend and the Vue.js frontend are consistently tested, built, and deployed seamlessly.
+
+For "Six Pack," the backend will handle user registration, session management, and exercise tracking. The frontend provides an intuitive interface where users can add and modify sessions and exercises, aligned with their fitness goals. The integration of a timer and the potential use of Tkinter for images/videos makes the application interactive and engaging.
+
+This CI/CD approach guarantees reliable deployments and smooth updates, ensuring that the features supporting user interaction—like adding/modifying workouts—are always functional.
