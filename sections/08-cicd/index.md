@@ -19,7 +19,7 @@ Tailor the testing and deployment processes to align with the project's specific
 
 CI/CD Overview:
 
-The CI/CD pipeline automates testing, building, and deployment processes to ensure that the "Six Pack" frontend and backend are always in a deployable state. Automated checks prevent issues and ensure smooth updates.
+Our CI/CD pipeline automates testing, building, and deployment processes to ensure that the "Six Pack" frontend and backend are always in a deployable state. Automated checks prevent issues and ensure smooth updates.
 
 Setting Up CI/CD with GitHub Actions
 CI/CD Pipeline Configuration
