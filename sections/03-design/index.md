@@ -1,9 +1,3 @@
----
-title: Design
-has_children: false
-nav_order: 4
----
-
 <h1> Design </h1>
 
 ## Architecture 
