@@ -23,10 +23,8 @@ nav_order: 4
 ## Modelling
 <h5>Domain modelling:</h5>
 <p>The domain model of "Six-pack" will be based on the Unified Modelling Language (UML) principles, so to ensure connections between the core business logic and the software development logic.
-<h6>Class diagram:</h6>
-<b>User:</b> <p> This class represents the person who wants to start using Six-pack. A user has a name, an e-mail and a password. User details are stored in the memory to authenticate and manage user-specific training sessions.
-</p>
-<br>
+<h5>Class diagram:</h5>
+<b>User:</b> <p> This class represents the person who wants to start using Six-pack. A user has a name, an e-mail and a password. User details are stored in the memory to authenticate and manage user-specific training sessions.</p><br>
 <b>Exercise:</b> <p> This class stands for a physical activity that a user wants to do during a training session. It can be repeated multiple times both consequently or after a short break.
 An exercise has a name, number of reps, number of series, time break, a body part that is supposed to train and eventually a link to a video or an image if the user wants to add it
 </p>
