@@ -22,7 +22,7 @@ The goal of Six-pack is to provide an easy-to-use app where users can manage aut
 </p>
 
 <h3>Functional Requirements</h3>
-<h5>User Authentication</h5>
+<h5>1.User Authentication</h5>
 Requirement: Users must be able to create a profile and log in to the application.
 <h7>Acceptance Criteria:</h7>
 <ul>
@@ -31,7 +31,7 @@ Requirement: Users must be able to create a profile and log in to the applicatio
     <li>On successful login, users are directed to the home page where they can start creating their training plans.</li>
 </ul>
 
-<h5>Creation of a training session</h5>
+<h5>2.Creation of a training session</h5>
 Requirement: Users must be able to create a personalized training session and insert as many exercises as they want by simply pushing a few buttons.
 <h7>Acceptance Criteria:</h7>
 <ul>
@@ -40,7 +40,7 @@ Requirement: Users must be able to create a personalized training session and in
     <li>Once saved, the session appears on the user’s main dashboard.</li>
 </ul>
 
-<h5>Exercise customization</h5>
+<h5>3.Exercise customization</h5>
 Requirement:  Users must be able to set the number of reps, sets, and rest periods for each exercise.
 
 <h7>Acceptance Criteria:</h7>
@@ -51,7 +51,7 @@ Requirement:  Users must be able to set the number of reps, sets, and rest perio
     <li>The exercise is saved with all customization details visible in the session summary.</li>
 </ul>
 
-<h5>Multimedia Integration</h5>
+<h5>4.Multimedia Integration</h5>
 Requirement:Users must be able to add image or video links to exercises for instructional purposes.
 
 <h7>Acceptance Criteria:</h7>
@@ -62,7 +62,7 @@ Requirement:Users must be able to add image or video links to exercises for inst
     <li>When clicked, the media opens in an external player or browser. Internet connection is needed</li>
 </ul>
 
-<h5>Session Management</h5>
+<h5>5.Session Management</h5>
 Users can save, edit, or delete their training sessions.
 
 <h7>Acceptance Criteria:</h7>
@@ -75,7 +75,7 @@ Users can save, edit, or delete their training sessions.
 
 <h3>Non-functional requirements</h3>
 
-<h5>Usability</h5>
+<h5>1.Usability</h5>
 Requirement: The application must be easy to navigate, allowing users to complete tasks with minimal clicks. Users can complete common tasks in a short time span.
 <h7>Acceptance Criteria:</h7>
 
@@ -84,7 +84,7 @@ Requirement: The application must be easy to navigate, allowing users to complet
     <li>All buttons and icons are clearly labeled with intuitive visuals.</li>
 </ul>
 
-<h5> Performance</h5>
+<h5>2.Performance</h5>
 Requirement: The app should load each screen and execute actions (saving, editing, deleting sessions) with minimal delay.
 <h7>Acceptance Criteria:</h7>
 
@@ -92,7 +92,7 @@ Requirement: The app should load each screen and execute actions (saving, editin
     <li>Each page or action must load and execute within 2 seconds on standard network conditions.</li>
     <li>Video and image previews load without delays (within 1 second).</li>
 </ul>
-<h5> Security</h5>
+<h5>3.Security</h5>
 Requirement: User data must be securely stored and protected, with data transfers encrypted.
 <h7>Acceptance Criteria:</h7>
 
@@ -102,7 +102,7 @@ Requirement: User data must be securely stored and protected, with data transfer
     <li>Access to the app requires login after inactivity or logout, protecting user information.</li>
 
 </ul>
-<h5> Device Compatibility</h5>
+<h5>4.Device Compatibility</h5>
 Requirement: The application should be able to run on recent IOS and Android devices. 
 <h7>Acceptance Criteria:</h7>
 
@@ -113,7 +113,7 @@ Requirement: The application should be able to run on recent IOS and Android dev
 
 </ul>
 
-<h5> Data synchronization</h5>
+<h5>5.Data synchronization</h5>
 Requirement: Data should sync seamlessly across devices for users logged into the same account.
 <h7>Acceptance Criteria:</h7>
 
@@ -122,7 +122,7 @@ Requirement: Data should sync seamlessly across devices for users logged into th
     <li>The syn occurs in the background without effecting the overal performance of the application. </li>
 </ul>
 
-<h5>Customization</h5>
+<h5>6.Customization</h5>
 Requirement: The application is thought for being as much adaptable as possible to the users' desires and needs with neither limits concerning the number of exercises they can do during a session nor concerning the reps or the series.
 
 <h3>Implementation requirements</h3>
