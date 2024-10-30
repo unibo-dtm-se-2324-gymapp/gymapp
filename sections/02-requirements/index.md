@@ -9,18 +9,6 @@ nav_order: 3
 <h3>Goals</h3>
 The goal of Six-pack is to provide an easy-to-use app where users can manage autonomously their training routine by deciding which exercises to do according to their needs.
 
-<h3>User stories</h3>
-<p>
-    <ul>
-        <li>As a potential fitness enthusiast, I want create my account and subscribe to the app; so that I can start to plan my training session and personalize the exercises. </li>
-        <li>As a fitness beginner, I want to view video or image demonstrations for each exercise as instructions, so that I can perform them safely and effectively.</li>
-        <li>As a busy worker, I want to save and load my workout sessions quickly, so that I can fit my training into my daily working schedule.</li>
-        <li>As an experienced athlete, I want to customize the sets, reps, and rest times, so that my workouts are aligned with my training level.</li>
-        <li>As a user, I want to log in and save my training data, so that I can access my workouts across multiple devices.
-</li>
-        <li>As a user, i want to save as many training sessions as possible, decide the number of series of the same exercises, how many reps so that i can get fit in a proper way.  </li></ul>
-</p>
-
 <h3>Functional Requirements</h3>
 <h4>1.User Authentication</h4>
 <p>Requirement: Users must be able to create a profile and log in to the application.</p>
