@@ -4,29 +4,33 @@ has_children: false
 nav_order: 2
 ---
 
-# Concept
-
-Here you should explain:
-- The type of product developed with that project, for example (non-exhaustive):
-    - Application (with GUI, be it mobile, web, or desktop)
-    - Command-line application (CLI could be used by humans or scripts)
-    - Library
-    - Web-service(s)
-    - Data processing toolkit (= Library + CLI, or Jupyter Notebook)
-- Use case collection
-
 <h3>Product type </h3>
 
-<p>Six-pack is an application that has the goal of helping people to organize their training sessions by allowing them to choose the exercises they are going to do and how to do them thanks to images and videos.
-The user will be able to decide the number of series and reps of each exercise.</p>
+<p>Six-pack is a web based application designed to help users manage their personal fitness and routines efficiently, it has the goal of helping people organize their training sessions by allowing them to choose the exercises they are going to do and how to do them thanks to images and videos. The user will be able to decide the number of series and reps of each exercise. The platform provides users with the ability to create accounts, track their training sessions, and customize their workout plans from Monday to Sunday, making it easier for individuals to stay organized and focused on their fitness goals. The goal of the application is to help users track and manage their fitness activities with ease and efficiently by allowing them to plan their workouts for the week. </p>
 
-<h3>Key components </h3>
+<h3>Key characteristics of the product include: </h3>
+<p>- Application:  Web-based application, accessible on all modern browsers by typing in our http address. Further desktop version will be developed. <br>
+- User interface: simple and clean GUI(graphical user interface), giving users the possibility to access our system in a quick way in order to manage training sessions and profile settings.<br> 
+- Functionality: Core features include user registration, user login, training session management(from Monday to Sunday), profile updates and historical record checks. </p>
 
-<h3>Use case collection</h3>
-<h5>Use Case 1: Create an account</h5>
-<p> The person subscribe to Six-pack to use its functionalities</p>
-<h5>Use Case 2: Create a daily training session</h5>
-<p> The users prepare the exercises of the day according their preferences</p>
+<h3>Features and Use case collection</h3>
+<h5>Use Case 1: Account registration </h5>
+<p> <ul>
+        <li><b>Actor</b>: non registered user</li>
+        <li><b>Goal</b>: first time user signs up and gets to our platform and its functionalities </li>
+        <li><b>Flow of procedures</b>:users click on the register account bottom, type in their email address and password and gets their account registered. From now on they can personalise their training sessions. </li></ul>
+
+<h5>Use Case 2: update the profile information </h5>
+    <ul>
+        <li><b>Actor</b>: Logged-in user</li>
+        <li><b>Goal</b>: View or edit their profile details, including username and email.
+Basic flow:<br>
+            <ol>
+                <li> The user navigates to the profile page by clicking on the “Profile” Botton on the home page.  </li>
+                <li> The profile page then displays basic user’s personal information, such as Username and email</li>
+                <li>The user can later updates their personal information(change email, age, gender, job title etc)</li>
+                <li>The system then recognises the input and then updates the information in the database. 
+        <li><b>Flow of procedures</b>:users click on the register account bottom, type in their email address and password and gets their account registered. From now on they can personalise their training sessions. </li></ul>
 <h5>Use Case 3: Exercise modification</h5>
 <p> The user decides how many reps and series to do per each exercise</p>
 <h5>Use Case 4: Linking images and videos</h5>
