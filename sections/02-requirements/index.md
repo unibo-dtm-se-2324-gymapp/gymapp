@@ -12,7 +12,7 @@ The goal of Six-pack is to provide an easy-to-use app where users can manage aut
 <h3>User stories</h3>
 <p>
     <ul>
-        <li>As a potential fitness enthusiast, I want create my account and subscribe to the app; so that I can start to plan my training session and personalize the exercises, so that i can have a routine that suits my fitness goals. </li>
+        <li>As a potential fitness enthusiast, I want create my account and subscribe to the app; so that I can start to plan my training session and personalize the exercises. </li>
         <li>As a fitness beginner, I want to view video or image demonstrations for each exercise as instructions, so that I can perform them safely and effectively.</li>
         <li>As a busy worker, I want to save and load my workout sessions quickly, so that I can fit my training into my daily working schedule.</li>
         <li>As an experienced athlete, I want to customize the sets, reps, and rest times, so that my workouts are aligned with my training level.</li>
@@ -22,8 +22,8 @@ The goal of Six-pack is to provide an easy-to-use app where users can manage aut
 </p>
 
 <h3>Functional Requirements</h3>
-<h5>1.User Authentication</h5>
-Requirement: Users must be able to create a profile and log in to the application.
+<h4>1.User Authentication</h4>
+<p>Requirement: Users must be able to create a profile and log in to the application.</p>
 <h7>Acceptance Criteria:</h7>
 <ul>
     <li>Users can create an account using an email and password.</li>
@@ -31,8 +31,8 @@ Requirement: Users must be able to create a profile and log in to the applicatio
     <li>On successful login, users are directed to the home page where they can start creating their training plans.</li>
 </ul>
 
-<h5>2.Creation of a training session</h5>
-Requirement: Users must be able to create a personalized training session and insert as many exercises as they want by simply pushing a few buttons.
+<h4>2.Creation of a training session and customization </h4>
+<p>Requirement: Users must be able to create a personalized training session and insert as many exercises as they want by simply pushing a few buttons.</p>
 <h7>Acceptance Criteria:</h7>
 <ul>
     <li>Users can start a new session by clicking on “New Training Session.”</li>
@@ -40,19 +40,8 @@ Requirement: Users must be able to create a personalized training session and in
     <li>Once saved, the session appears on the user’s main dashboard.</li>
 </ul>
 
-<h5>3.Exercise customization</h5>
-Requirement:  Users must be able to set the number of reps, sets, and rest periods for each exercise.
-
-<h7>Acceptance Criteria:</h7>
-
-<ul>
-    <li>In the exercise setup, users can specify the number of reps and sets for each exercise</li>
-    <li>A field for setting the rest period between sets is recommended for a better training experience.</li>
-    <li>The exercise is saved with all customization details visible in the session summary.</li>
-</ul>
-
-<h5>4.Multimedia Integration</h5>
-Requirement:Users must be able to add image or video links to exercises for instructional purposes.
+<h4>3.Multimedia Integration</h4>
+<p>Requirement:Users must be able to add image or video links to exercises for instructional purposes.</p>
 
 <h7>Acceptance Criteria:</h7>
 
@@ -62,8 +51,8 @@ Requirement:Users must be able to add image or video links to exercises for inst
     <li>When clicked, the media opens in an external player or browser. Internet connection is needed</li>
 </ul>
 
-<h5>5.Session Management</h5>
-Users can save, edit, or delete their training sessions.
+<h4>4.Session Management</h4>
+<p>Requirement: Users can save, edit, or delete their training sessions.</p>
 
 <h7>Acceptance Criteria:</h7>
 
@@ -75,8 +64,8 @@ Users can save, edit, or delete their training sessions.
 
 <h3>Non-functional requirements</h3>
 
-<h5>1.Usability</h5>
-Requirement: The application must be easy to navigate, allowing users to complete tasks with minimal clicks. Users can complete common tasks in a short time span.
+<h4>1.Usability</h4>
+<p>Requirement: The application must be easy to navigate, allowing users to complete tasks with minimal clicks. Users can complete common tasks in a short time span.</p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
@@ -84,16 +73,16 @@ Requirement: The application must be easy to navigate, allowing users to complet
     <li>All buttons and icons are clearly labeled with intuitive visuals.</li>
 </ul>
 
-<h5>2.Performance</h5>
-Requirement: The app should load each screen and execute actions (saving, editing, deleting sessions) with minimal delay.
+<h4>2.Performance</h4>
+<p>Requirement: The app should load each screen and execute actions (saving, editing, deleting sessions) with minimal delay.</p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
     <li>Each page or action must load and execute within 2 seconds on standard network conditions.</li>
     <li>Video and image previews load without delays (within 1 second).</li>
 </ul>
-<h5>3.Security</h5>
-Requirement: User data must be securely stored and protected, with data transfers encrypted.
+<h4>3.Security</h4>
+<p>Requirement: User data must be securely stored and protected, with data transfers encrypted.</p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
@@ -102,19 +91,19 @@ Requirement: User data must be securely stored and protected, with data transfer
     <li>Access to the app requires login after inactivity or logout, protecting user information.</li>
 
 </ul>
-<h5>4.Device Compatibility</h5>
-Requirement: The application should be able to run on recent IOS and Android devices. 
+<h4>4.Device Compatibility</h4>
+<p>Requirement: The application should be able to run on recent IOS and Android devices. </p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
     <li>The app works well perfectly on devices running iOS 13.0+ and Android 9.0+.</li>
-    <li>The app uses HTTPS for all data transmission to secure user interactions.</li>
-    <li>Access to the app requires login after inactivity or logout, protecting user information.</li>
+    <li>Screens are responsive and adapt to different sizes of devices.
+</li>
 
 </ul>
 
 <h5>5.Data synchronization</h5>
-Requirement: Data should sync seamlessly across devices for users logged into the same account.
+<p>Requirement: Data should sync perfectly across devices for users logged into the same account.</p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
@@ -122,12 +111,9 @@ Requirement: Data should sync seamlessly across devices for users logged into th
     <li>The syn occurs in the background without effecting the overal performance of the application. </li>
 </ul>
 
-<h5>6.Customization</h5>
-Requirement: The application is thought for being as much adaptable as possible to the users' desires and needs with neither limits concerning the number of exercises they can do during a session nor concerning the reps or the series.
-
 <h3>Implementation requirements</h3>
-<h5>1.Programming Language & Frameworks</h5>
-REQUIREMENTS: The application should be developed using a modern framework compatible with mobile and desktop environments.
+<h4>1.Programming Language & Frameworks</h4>
+<p>REQUIREMENTS: The application should be developed using a modern framework compatible with mobile and desktop environments.</p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
@@ -135,8 +121,8 @@ REQUIREMENTS: The application should be developed using a modern framework compa
     <li>Backend services are developed using Python with the Flask framework. </li>
 </ul>
 
-<h5>2.Database Management</h5>
-REQUIREMENTS: User and training session data must be stored in our own database system so we can have an easier data management. 
+<h4>2.Database Management</h4>
+<p>REQUIREMENTS: User and training session data must be stored in our own database system so we can have an easier data management. </p>
 <h7>Acceptance Criteria:</h7>
 
 <ul>
