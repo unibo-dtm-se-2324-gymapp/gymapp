@@ -45,7 +45,7 @@ Once we reached the final phase of the project, we reviewed the individual parts
 
 - *A class of which you are particularly proud:*  
   
-The User class is the one that we want to highlight, even though its current implementation is quite simple. This class represents a good starting point for new features implemnetation within the application. At the moment, the User class includes fundamental attributes like user_id, name, and password, which are essential for identifying and authenticating a user within the system.
+The User class is the one that we want to highlight, even though its current implementation is quite simple. This class represents a good starting point for new features implementation within the application. At the moment, the User class includes fundamental attributes like user_id, name, and password, which are essential for identifying and authenticating a user within the system.
 
  The object-oriented design in Python allows for easy expansion of the class with new attributes and methods that could handle more advanced aspects of user management. For instance, it could be enriched with features for session management, such as tracking the last login and supporting two-factor authentication. 
 
