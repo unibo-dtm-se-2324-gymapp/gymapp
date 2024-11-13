@@ -35,12 +35,29 @@ The adoption of a CI/CD pipeline for the Six Pack project offers several key adv
 
 This results in both reduced development costs and enhanced developer satisfaction as more time can be spent on feature development rather than routine tasks.
 
-# Backend procedure (FastAPI)
-How we managed to structure our job for Backend (FastAPI) and the steps are the following:
-1. Python Environment: Sets up Python (compatible with FastAPI)
-2. Dependencies: Poetry manages dependencies
-3. Testing: Runs backend tests using pytest.
-Let's now talk about Build and Deploy procedure. The FastAPI backend is built, deployed to TestPyPI, and a GitHub release is created.
+# CI/CD Strategy for the "Six Pack" Application
+
+# Backend (FastAPI) CI/CD Process
+
+The backend of the Six Pack application is built with FastAPI, a modern web framework for Python. The CI/CD pipeline for the backend ensures that the backend code is automatically tested, built, and deployed. This includes the following steps:
+
+# 1. Python Environment Setup:
+
+The pipeline sets up the appropriate Python environment to run the FastAPI backend.
+This includes configuring a compatible version of Python (e.g., Python 3.9) on the CI server.
+
+# 2. Dependency Management:
+
+Poetry is used to manage backend dependencies. The pipeline installs the necessary dependencies using Poetry, ensuring that all required libraries are available before running tests or building the backend.
+
+# 3. Automated Testing:
+
+The pipeline runs tests for the backend using pytest. This ensures that any changes in the codebase are verified against existing test cases, preventing errors from reaching production.
+
+# 4. Build and Deployment:
+
+After successful testing, the FastAPI backend is built and deployed to TestPyPI or a production server, depending on the workflow stage.
+The pipeline ensures that the backend is automatically deployed and that a GitHub Release is created, facilitating version tracking and distribution.
 
 # Job Structure for Frontend (Vue.js)
 
