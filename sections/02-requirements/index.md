@@ -113,7 +113,4 @@ The goal of Six-pack is to provide an easy-to-use app where users can manage aut
 <p>REQUIREMENTS: User and training session data must be stored in our own database system so we can have an easier data management. </p>
 <h7>Acceptance Criteria:</h7>
 
-<ul>
-    <li>The database must be SQL-based  </li>
-    <li>The data model should include user accounts, training sessions, exercises, and multimedia links. </li>
-</ul>
+
