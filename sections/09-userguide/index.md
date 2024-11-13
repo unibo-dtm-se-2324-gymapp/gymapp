@@ -91,29 +91,36 @@ Navigate to the "My Sessions" section, where the user can view all previously cr
 
     - To delete a session, click the "Delete" button. This will remove the session from the application’s records. A confirmation prompt will appear before the session is deleted to prevent accidental removal.
 
-4. Tracking Progress
+# 4. Tracking Progress
+
 The Six Pack application allows users to track their workout progress over time by providing a historical view of their sessions:
 
-Marking Sessions as Complete:
+1. Marking Sessions as Complete:
 
 After finishing a workout, users can mark a session as "Completed". This helps track which sessions have been successfully completed and offers a record of past workouts.
-Analyzing Progress:
+
+2. Analyzing Progress:
 
 Users can review the performance data of their past sessions, including details such as the number of exercises completed, sets, reps, and rest periods. This feature allows users to monitor their progress and adjust their workout plan accordingly.
-5. Additional Features and Functionalities
-Timer Integration:
 
-The Six Pack application includes a built-in timer to track rest intervals between exercises. The timer can be customized to match the user’s preferred rest period, ensuring that the user can maintain an effective workout schedule.
-Media Support:
+# 5. Additional Features and Functionalities
+- Timer Integration:
 
-Users can upload or link to images and videos demonstrating various exercises. These media files can be embedded within the application to provide visual cues for proper form. The use of Tkinter, an optional feature, allows the inclusion of images and videos directly within the application interface, providing an enriched user experience.
-6. Session Reset
+    The Six Pack application includes a built-in timer to track rest intervals between exercises. The timer can be customized to match the user’s preferred rest period, ensuring that the user can maintain an effective workout schedule.
+
+- Media Support:
+
+    Users can upload or link to images and videos demonstrating various exercises. These media files can be embedded within the application to provide visual cues for proper form. The use of Tkinter, an optional feature, allows the inclusion of images and videos directly within the application interface, providing an enriched user experience.
+
+# 6. Session Reset
+
 Users can reset the values in their session to start fresh:
 
-Clear Inputs:
+1. Clear Inputs:
 
 The application provides an option to reset the fields in any given training session, which removes all previously entered data. This feature is helpful for users who want to start creating a new workout plan without any leftover data from previous sessions.
-Resetting Media Files:
+
+2. Resetting Media Files:
 
 Along with clearing text fields, any attached media (images or video links) can also be reset. This ensures that users can entirely refresh their session data, including both the exercises and associated media.
 
