@@ -83,38 +83,32 @@ The pipeline compiles the Vue.js application, which includes bundling JavaScript
 
 Once the build is successful, the frontend is deployed to GitHub Pages or a similar hosting platform, making it available to users. The pipeline ensures that the application is always up-to-date, reflecting the latest changes.
 
-# Main Purpose:
+# GitHub Actions Workflow Configuration
 
-The main purpose is to automatically build and deploy the application whenever a new commit is pushed to the main branch of the repository. The deployment process involves:
-
-1. Checking out the code
-2. Installing dependencies
-3. Building the application.
-4. Deploying the built app to GitHub Pages
-   Key Steps:
-5. Trigger (on: push):
-   The workflow is triggered on a push to the main branch.This means that whenever someone pushes new changes to the main branch, the workflow will start running
-6. Job (jobs: build):
-   The job is named “Build” and runs on the latest version of Ubuntu (ubuntu-latest)
-   Steps:
-   Checkout the repository (uses: actions/checkout@v3): This pulls the repository’s code into the runner.Set up Node.js (uses: actions/setup-node@v2): It sets up Node.js version 16. The token (GH_TOKEN) is included to allow access to private packages if necessary.
-
-- Install dependencies (run: yarn): Installs all necessary dependencies using Yarn.
-- Build the app (run: yarn build): Executes the build command, usually compiling code or bundling assets.
-- Deploy to GitHub Pages (uses: JamesIves/github-pages-deploy-action@v4.2.5):
-- The deployment action uploads the built application to the GitHub Pages branch (branch: github-pages).
-- The folder out contains the output files (HTML, CSS, JS, etc.) that will be deployed to GitHub Pages.
-  Why we should imply ci/cd?
-The benefits of ci/cd:
-
-- Shorter cycle time
-- Happier employees
-- Gets to market faster: codes run in the pipeline and now in production is just making the money
+The workflows for both the backend and frontend are configured using GitHub Actions. These workflows are triggered automatically whenever a commit is pushed to the main branch of the respective repository. The key steps in each workflow are:
 
 
-This updated CI/CD pipeline is customized for the "Six Pack" application, ensuring that both the FastAPI backend and Vue.js frontend are tested, built, and deployed seamlessly.
-This updated CI/CD pipeline is tailored specifically for the "Six Pack" application, which helps users organize their workout sessions by specifying daily exercises, the number of series, and reps. The pipeline ensures that both the FastAPI backend and the Vue.js frontend are consistently tested, built, and deployed seamlessly.
+1. Code Checkout: This step retrieves the latest version of the repository, ensuring that the pipeline runs on the most up-to-date code.
 
-For "Six Pack," the backend will handle user registration, session management, and exercise tracking. The frontend provides an intuitive interface where users can add and modify sessions and exercises, aligned with their fitness goals. The integration of a timer and the potential use of Tkinter for images/videos makes the application interactive and engaging.
+2. Dependency Installation: The required dependencies for both the backend (Poetry for FastAPI) and frontend (npm or Yarn for Vue.js) are installed.
 
-This CI/CD approach guarantees reliable deployments and smooth updates, ensuring that the features supporting user interaction—like adding/modifying workouts—are always functional.
+3. Testing: Automated tests are executed to validate the integrity of the code. These tests are tailored for each part of the application (backend and frontend).
+
+4. Building: The code is compiled, and the assets are bundled to prepare for deployment.
+
+5. Deployment: The application is deployed to the chosen environment (TestPyPI for the backend and GitHub Pages for the frontend).
+
+
+# The Benefits of CI/CD for "Six Pack"
+
+Implementing a CI/CD pipeline for Six Pack provides several notable advantages:
+
+- Automation: The entire process of testing, building, and deploying is automated, reducing manual effort and human error.
+- Faster Releases: By automating the integration and deployment process, new features and fixes can be deployed more quickly.
+- Continuous Feedback: Automated tests provide continuous feedback to developers, helping them identify and address issues early in the development cycle.
+- Reliability: With continuous testing and integration, the risk of introducing bugs into production is minimized, ensuring the application's stability.
+
+# Conclusion
+
+The CI/CD pipeline for Six Pack ensures that both the FastAPI backend and Vue.js frontend are tested, built, and deployed seamlessly. By integrating automated processes into the development workflow, the application benefits from faster development cycles, reliable releases, and improved software quality. The CI/CD approach enables the team to efficiently manage updates to both the frontend and backend, ensuring that the application is always in a deployable state and ready for users.
+
