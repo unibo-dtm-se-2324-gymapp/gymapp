@@ -61,12 +61,27 @@ The pipeline ensures that the backend is automatically deployed and that a GitHu
 
 # Job Structure for Frontend (Vue.js)
 
-1. Node.js Environment: Set up for Vue.js.
-2. Dependencies: Uses npm for package management.
-3. Testing: Runs frontend tests.
-4. Build: Builds the Vue.js frontend application.
+The frontend of the Six Pack application is developed using Vue.js, a progressive JavaScript framework. The CI/CD pipeline for the frontend is similar in structure but tailored for the Vue.js application. The key steps include:
 
-We created a file which is a GitHub Actions workflow configuration written in YAML, designed for automated deployment of an application. Let us break it down of its purpose and key steps:
+# 1. Node.js Environment Setup:
+
+The pipeline sets up the Node.js environment, necessary for running the Vue.js application and managing its dependencies.
+
+# 2. Dependency Management:
+
+npm or Yarn is used to install the required dependencies for the frontend. These tools are used to ensure the latest versions of frontend libraries are available.
+
+# 3. Automated Testing:
+
+Automated tests for the frontend are run to ensure that the user interface behaves as expected. This step helps verify that the UI components are functional and interact with the backend correctly.
+
+# 4. Build Process:
+
+The pipeline compiles the Vue.js application, which includes bundling JavaScript, CSS, and other static assets required by the frontend.
+
+# 5. Deployment:
+
+Once the build is successful, the frontend is deployed to GitHub Pages or a similar hosting platform, making it available to users. The pipeline ensures that the application is always up-to-date, reflecting the latest changes.
 
 # Main Purpose:
 
