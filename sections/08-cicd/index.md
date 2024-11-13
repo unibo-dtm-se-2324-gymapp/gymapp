@@ -4,8 +4,6 @@ has_children: false
 nav_order: 9
 ---
 
-123 prova
-
 # CI/CD
 
 - This section provides a conceptual description of the CI/CD workflow
