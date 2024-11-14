@@ -45,17 +45,8 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Log in and refresh the page to verify that the session persists.
     Log out and attempt to access a protected page to confirm redirection to the login page.
 
-#### 3. Form input validation for registration and login
 
-- *Acceptance Criteria:*
-    All inputs must be correctly formatted (e.g., valid email format, secure password).
-    Each form should display clear error messages if inputs are invalid.
-
-- *Acceptance Test:*
-    Enter improperly formatted emails and weak passwords to verify validation.
-    Check that all error messages are shown for each invalid input.
-
-#### 4. Workout session duplication and storage
+#### 3. Workout session duplication and storage
 
 - *Acceptance Criteria:*
     Users can add multiple workout sessions, with each session saved and retrievable.
@@ -65,7 +56,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Duplicate an existing workout session and verify that both instances are saved and retrievable.
     Modify one session and check that changes do not affect the duplicated session.
 
-#### 5. Workout data reset functionality
+#### 4. Workout data reset functionality
 - *Acceptance Criteria:*
     Users can clear all workout session data using a reset function.
     Confirmation of data clearance should be displayed.
@@ -74,14 +65,14 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Populate workout sessions, use the reset button, and confirm data is cleared.
     Check for confirmation message and verify the session data is empty.
 
-#### 6. Profile information retrieval
+#### 5. Profile information retrieval
 - *Acceptance Criteria:*
     Profile data, including username and email, must display accurately upon login.
 
 - *Acceptance Test:*
     Log in and access the profile page to verify that user information is correctly retrieved and displayed.
 
-#### 7. User interface responsiveness
+#### 6. User interface responsiveness
 - *Acceptance Criteria:*
     The interface must adapt to various screen sizes (e.g., mobile, tablet, desktop).
     Text, buttons, and layout should be accessible and readable across devices.
@@ -90,7 +81,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Test on multiple devices and resolutions to confirm UI adaptability.
     Verify that all buttons and text are accessible and readable on different screens.
 
-#### 8. Error handling in workout data storage
+#### 7. Error handling in workout data storage
 - *Acceptance Criteria:*
     Users should be notified if data saving fails due to issues like network errors.
     A retry option should be available without losing previously entered data.
