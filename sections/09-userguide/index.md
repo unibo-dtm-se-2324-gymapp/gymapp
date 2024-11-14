@@ -13,5 +13,6 @@ the user's first name or nickname, an e-mail address and a password.
 
  <h5>Actual application use</h5>
 
-After opening the application, the homepage will be displayed, and the user will need to decide whether to register or log in if already registered. Once logged in, the user can create and manage their personalized training sessions by pressing a button that will display the days of the week for which they can create their workouts. By clicking on any day, a table will be shown where the user can enter their exercises, including name, sets, repetitions, type of exercise, rest time, and links to images or videos for perfect execution. Once the exercises have been added, the user can save and finalize the weekly workout, which will be saved via a dedicated button.
+After the subscription, the user can log in and in the screen the user can find a button which allows the creation of a training session.
+Inside this section, the user can insert exercises thanks to the help of a button which make appear a table where the user has to insert the name of the exercise, the reps, the series, the time breaks between the series and eventually also the links to images and videos of people performing these exercises.
 </p>
