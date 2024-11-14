@@ -30,18 +30,18 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     An error message should display if any required input is invalid.
     A confirmation message should be shown upon successful registration.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Test with valid inputs to verify successful registration and confirmation message.
     Attempt to register with an existing email to check that an error message appears.
     Test input with weak passwords and invalid emails to confirm appropriate validation.
 
 #### 2. User Login Persistence
 
--*Acceptance Criteria:*
+- *Acceptance Criteria:*
     Once logged in, the user should stay authenticated across sessions (even after refreshing the page).
     Users should be redirected to the login page if not authenticated.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Log in and refresh the page to verify that the session persists.
     Log out and attempt to access a protected page to confirm redirection to the login page.
 
@@ -51,7 +51,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     All inputs must be correctly formatted (e.g., valid email format, secure password).
     Each form should display clear error messages if inputs are invalid.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Enter improperly formatted emails and weak passwords to verify validation.
     Check that all error messages are shown for each invalid input.
 
@@ -61,7 +61,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Users can add multiple workout sessions, with each session saved and retrievable.
     Each new session must duplicate correctly without affecting existing data.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Duplicate an existing workout session and verify that both instances are saved and retrievable.
     Modify one session and check that changes do not affect the duplicated session.
 
@@ -70,7 +70,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Users can clear all workout session data using a reset function.
     Confirmation of data clearance should be displayed.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Populate workout sessions, use the reset button, and confirm data is cleared.
     Check for confirmation message and verify the session data is empty.
 
@@ -78,7 +78,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
 - *Acceptance Criteria:*
     Profile data, including username and email, must display accurately upon login.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Log in and access the profile page to verify that user information is correctly retrieved and displayed.
 
 #### 7. User Interface Responsiveness
@@ -86,7 +86,7 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     The interface must adapt to various screen sizes (e.g., mobile, tablet, desktop).
     Text, buttons, and layout should be accessible and readable across devices.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Test on multiple devices and resolutions to confirm UI adaptability.
     Verify that all buttons and text are accessible and readable on different screens.
 
@@ -95,6 +95,6 @@ The acceptance tests are based on Test-Driven Development (TDD) principles, simu
     Users should be notified if data saving fails due to issues like network errors.
     A retry option should be available without losing previously entered data.
 
--*Acceptance Test:*
+- *Acceptance Test:*
     Simulate a network failure during a data save and check for an error message.
     Ensure the retry function works, allowing data to be saved once the network is restored.
