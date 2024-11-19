@@ -15,3 +15,15 @@ Here is a detailed description of the APIs and routes defined in the this code. 
 <h4>Profile Page (/profile)</h4> Route: /profile Methods: GET <br>Description: Shows the details of the user profile. If the user tried to access his/her profile but he/she was not logged-in, redirected to the login page.
 <br>
 <h4>Logout (/logout) </h4>Route: /logout Methods: GET <br>Description: Logs the user out by removing the user_id cookie and redirects him to
+
+<h4> To build more software</h4>
+<br>
+To add more functionalities to the software, depending on what kind of modifications you need to do, you need to updated the user interface or, in any case the js files which contains all the functions.
+After this step, the python file has to be modified by adding a route with a method like the ones above.
+<br>
+In this way, the function specified in the js file can be historized or launched.
+<br>
+Let's make a simple example: you wanted to allow the users to start a timer during a training session.
+First of all you build a button "timer" in the interface then you associate to that button the function "timer" in the js file.
+Finally you want to allow the users to see if they completed the training session in less time than the previous time.
+In order to retrieve the past training sessions times you have to build a route in the Python file showing record of the different times related to a specific training session that the users performed in the past.
