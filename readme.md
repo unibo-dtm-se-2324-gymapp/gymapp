@@ -62,7 +62,7 @@ Enhance styling with Bootstrap or TailwindCSS.
 Contributions are welcome! If you find bugs or have suggestions, please open an issue or submit a pull request.
 
 <h3>License</h3>
-This project is licensed by using the Standard Semantic versioning.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 <h3>Contact</h3>
 For questions or feedback, feel free to reach out:
