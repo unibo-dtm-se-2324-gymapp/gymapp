@@ -1,71 +1,146 @@
-<h1> Six-pack</h1>
-Sixpack is a web application built in Flask that lets users create an account, log in, and then create personalized training sessions with exercises that can be tailored to the user needs.
+# \[Work in progress\] Project work final report template
 
-<h3>Features</h3>
-<h5>User Authentication</h5>
-User registration and login system
-<h5>Training sessions</h5>
-Browse available gym classes along with their description and slots
-<h5>Personalized Training Sessions</h5>
-Create custom training sessions
-Add exercises to sessions, specifying sets and reps
+[This repository][template-repo] contains a template Software Engineering (SE) reports.
 
-<h3>Requirements</h3>
-Before running the application make sure you have the following installed:
+It has been conceived to be used by students of the [Software Engineering course][course-site] 
+for their project work.
 
-Python 3.7+
-Pip (Python package manager)
-<h3>Installation</h3>
+By adopting this template, students can _automatically_ generate a _static_ Web-site,
+which will present their report in fancy way.
+Consider, for example, the [site generated from this template][template-site].
 
-<h5>Clone the Repository</h5>
-git clone + link of the repository on github
+To fill the template, students have to put their contents, [in Markdown format][markdown-cheatsheet], 
+into the `sections` directory.
 
-<h5>Create a Virtual Environment</h5>
+The generation of the Web-site is _automatically_ performed by means of GitHub Actions.
 
-python -m venv venv
-source venv/bin/activate # On Windows, use `venv\\Scripts\\activate`
-<h5>Install Dependencies</h5>
+Locally, students may visualise a preview of the Web-site by means of [Jekyll][jeckyll-home].
 
-pip install -r requirements.txt
-<h5>Run the Application</h5>
+In the following, we provide a number of instruction for using the template,
+and for producing the final report.
 
-python Sixpack.py
-<h5>Access the Application</h5>
+Please read them carefully, and post any question or clarification request on the 
+course's [General forum][general-forum].
 
-Open your browser and navigate to:
-In the terminal, there must be a link like the one below, click on it and the website should appear.
-http://127.0.0.1:5000
+## Recommended workflow for the project work
+
+1. Find colleagues to work with (1-4 people, exceptions should be negotiatied with the teacher)
+
+2. Choose a project idea and post a project proposal on the course's [Project forum][project-forum]
+    * please provide a __catchy__ and __concise name__ for the project
+    * please provide a _brief abstract_ of the project
+    * please include the _names_, and __email addresses__ of the team members
+
+3. Wait for the teacher's approval
+
+4. Create a GitHub organization for the project:
+
+    !["New organization" button on GitHub](pictures/github-new-org.png)
+
+    1. you should name the organization as follows: `unibo-dtm-se-ACADEMIC_YEAR-PROJECT_NAME`, where
+        * `ACADEMIC_YEAR` is the academic year in which the project is carried out (e.g. `2324`, `2425`)
+        * `PROJECT_NAME` is the aforementioned catchy name of the project
+
+    2. add all the team members to the organization, with the role of _owner_
+
+    3. add the teacher as well with the role of _owner_ (username: [`gciatto`](https://github.com/gciatto))
+
+5. By means of [this repository template][template-repo], create a new repository in your organization, named `report`
+    * use the ad-hoc button to instantiate the template:
+
+        !["Use this template" button on GitHub](pictures/github-use-template.png)
+
+    * follow the instruction below on how to customise your report
+
+6. Create a new repository in your organization, named `artifact`
+    * this repository will contain the _code_ of your project work, if any
+    * you may use our [Python project template](https://github.com/unibo-dtm-se/template-python-project) if you want
+    * in case your software consists of multiple components, you may consider having multiple repositories, one for each component
+
+7. Post the link to your GitHub organization in the course's [Project forum][project-forum],
+in correspondence of your project proposal
+
+8. Work on your project, and on your report
+
+9. When you are done with your project, and with your report, create one more post on the [Project forum][project-forum],
+to notify the teacher, and ask for an appointment for the final presentation
+
+## How to customise your report
+
+1. In the `_config.yml` file, you _must_ customise the __title__ and the __description__ of your report
+
+2. Enable GitHub pages for your repository
+
+    !["Enable GitHub pages for your repository"](pictures/github-pages.png)
+
+    1. go to the _Settings_ tab of your repository
+    2. scroll down to the _GitHub Pages_ section
+    3. select the `main` branch as the source for GitHub Pages
+    4. select the `root` directory as the source for GitHub Pages
+    5. click on the _Save_ button
+
+3. In the `sections/` directory, you _must__ customise the __contents__ of your report
+    + files are already there, you just need to write your contents [in Markdown format][markdown-cheatsheet]
+    + the template files are already filled with suggestions on what to write
+
+## How to make the report available on the Web
+
+> Assumption: you have already enabled GitHub Pages for your repository (see above)
+
+1. The report is automatically generated by GitHub Actions
+    + you don't need to do anything, just __commit & push__ your changes to the repository
+
+2. Of course, you may experience some delay before the site is updated
+    + you may check the status of the generation by looking at the _Actions_ tab of your repository
+
+3. Of course, the process may fail if the syntax of your Markdown files is incorrect
+    + or if you are not compliant to the directory structure or the file naming conventions
+
+4. If the process succeeds, you may access the report at the following URL:
+    + `https://ORGANIZATION_NAME.github.io/REPOSITORY_NAME`
+    + which, if you followed our instructions, should be: `https://unibo-dtm-se-ACADEMIC_YEAR-PROJECT_NAME.github.io/report`
+
+## How to visualise a preview of the report, locally
+
+You need to install __Ruby__ on your machine (instructions below).
+
+1. Assuming that Ruby is correctly installed, you need to clone your report repository on your machine:
+    
+    ```bash
+    git clone https://github.com/ORGANIZATION_NAME/REPOSITORY_NAME
+    ```
+
+2. Then, you need to restore Jeckyll's dependencies.
+From within the root of your repository, run the following command:
+
+    ```bash
+    bundler install
+    ```
 
 
-<h3>Usage</h3>
-<h5>Register an Account</h5>
-We did some basic security measures such as the compulsory presence of the @ in the mail, but surely more could be done about password improvements.
-<h5>Login</h5>
+3. Finally, you may run the following command from the root of your repository:
 
-Log in to your account to see some available features.
-<h5>See Trainings</h5>
-If this is your first time in Sixpack, you will just see empty tables to fill with exercise
-<h5>Create Exercises</h5>
-In every session, add exercises by setting exercise names, sets, and reps.
+    ```bash
+    bundler exec jekyll serve
+    ```
 
-<h3>Technologies Used</h3>
-Backend: Python
-Frontend: HTML, CSS and JS
-Database: In-memory Python structures (extendable to SQL with Flask-SQLAlchemy)
-<h3>Future Enhancements</h3>
-Add a database, such as SQLite or PostgreSQL, for persistent data storage.
-Advanced user authentication, such as password hashing with Flask-Bcrypt.
-Add a user dashboard to track progress over time.
-Integrate class booking with calendars.
-Enhance styling with Bootstrap or TailwindCSS.
-<h3>Contributing</h3>
-Contributions are welcome! If you find bugs or have suggestions, please open an issue or submit a pull request.
+    The output of that command should tell you the local URL where the preview of your site is available.
+    Most commonly, it will be <http://127.0.0.1:4000>.
 
-<h3>License</h3>
-This project is licensed under the MIT License. See the LICENSE file for more details.
+4. Open your browser, and navigate to the URL provided by the previous command
+    + from now on, until you stop the `bundler exec jekyll serve` command, any change you make to the `.md` files will be automatically reflected in the preview
+    + you may stop the preview by pressing `Ctrl+C` in the terminal
 
-<h3>Contact</h3>
-For questions or feedback, feel free to reach out:
+## How to install Ruby and Jekyll
 
-Name: Alessandro Astolfi, Marta Betti,Domenico Bonifazio, Klaudia Daci e Leilei Zhang
-Email: alessandro.astolfi@studio.unibo.it,marta.betti5@studio.unibo.it,domenico.bonifazio@studio.unibo.it,klaudia.daci@studio.unibo.it,leilei.zhang@studio.unibo.it
+Follow instructions from here: <https://jekyllrb.com/docs/installation/>
+
+<!-- References -->
+
+[template-repo]: https://github.com/unibo-dtm-se/template-project-work
+[template-site]: https://unibo-dtm-se.github.io/template-project-work
+[course-site]: https://www.unibo.it/en/study/phd-professional-masters-specialisation-schools-and-other-programmes/course-unit-catalogue/course-unit/2023/466765
+[general-forum]: https://virtuale.unibo.it/mod/forum/view.php?id=1512135
+[project-forum]: https://virtuale.unibo.it/mod/forum/view.php?id=1544423
+[markdown-cheatsheet]: https://www.markdownguide.org/cheat-sheet
+[jeckyll-home]: https://jekyllrb.com/
