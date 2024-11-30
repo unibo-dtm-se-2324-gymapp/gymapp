@@ -1,0 +1,2 @@
+During the preparation of this work everybody used ChatGPT4 in order to have guidelines about how to write a proper report.
+After using it, everybody reviewed and edited the content as needed and take(s) full responsibility for the content of the final artifact.
