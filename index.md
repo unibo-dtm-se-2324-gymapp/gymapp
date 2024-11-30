@@ -9,15 +9,15 @@ nav_order: 1
 
 ### Authors
 - [Domenico Bonifazio]
-(mailto:domenico.bonifazio@studio.unibo.i)
+(mailto: domenico.bonifazio@studio.unibo.it)
 - [Alessandro Astolfi]
-(mailto:alessandro.astolfi@studio.unibo.it)
+(mailto: alessandro.astolfi@studio.unibo.it)
 - [Marta Betti]
-(mailto:marta.betti@studio.unibo.it)
+(mailto: marta.betti5@studio.unibo.it)
 - [Leilei Zhang]
-(leilei.zhang@studio.unibo.it)
+(mailto: leilei.zhang@studio.unibo.it)
 - [Klaudia Daci]
-(klaudia.daci@studio.unibo.it)
+(mailto: klaudia.daci@studio.unibo.it)
 
 ## Introduction
 This group is composed by all students with a background in business and management, 
