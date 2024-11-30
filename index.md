@@ -8,16 +8,16 @@ nav_order: 1
 # Project title
 
 ### Authors
-- [Domenico Bonifazio]
-(mailto: domenico.bonifazio@studio.unibo.it)
-- [Alessandro Astolfi]
-(mailto: alessandro.astolfi@studio.unibo.it)
-- [Marta Betti]
-(mailto: marta.betti5@studio.unibo.it)
-- [Leilei Zhang]
-(mailto: leilei.zhang@studio.unibo.it)
-- [Klaudia Daci]
-(mailto: klaudia.daci@studio.unibo.it)
+- Domenico Bonifazio
+(domenico.bonifazio@studio.unibo.it)
+- Alessandro Astolfi
+(alessandro.astolfi@studio.unibo.it)
+- Marta Betti
+(marta.betti5@studio.unibo.it)
+- Leilei Zhang
+(leilei.zhang@studio.unibo.it)
+- Klaudia Daci
+(klaudia.daci@studio.unibo.it)
 
 ## Introduction
 This group is composed by all students with a background in business and management, 
