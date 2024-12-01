@@ -8,12 +8,6 @@ nav_order: 9
 
 # CI/CD
 
-- This section provides a conceptual description of the CI/CD workflow
-    - What is how automated?
-    - Why?
-- Relevant details of GitHub Actions exploitation / implementation
-
-
 The application Six-Pack backend is based on FastAPI, and the frontend uses Vue.js. The CI/CD process must reflect this.
 Tailor the testing and deployment processes to align with the project's specific requirements, while maintaining automated testing, building, and deploying.
 
