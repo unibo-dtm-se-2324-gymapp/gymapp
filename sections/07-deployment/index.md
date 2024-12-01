@@ -1,3 +1,9 @@
+---
+title: Deployment
+has_children: false
+nav_order: 8
+---
+
 # Deployment
 ## Six-pack Application Deployment
 
