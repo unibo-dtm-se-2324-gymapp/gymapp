@@ -6,22 +6,6 @@ nav_order: 5
 
 # Development
 
-## DVCS
-
-- This section explains how DVCS was used, in particular:
-    - Conventions on the usage of branches
-    - Conventions for commits
-    - Any other relevant aspect
-
-## Implementation details
-
-- Describe anything new AND relevant that you learned and are willing to report
-    - For example, a class of which you are particularly proud
-
-
-
- 
-
 ### Use of DVCS
 
 The code was developed using a Distributed Version Control System (DVCS) that is Git. This allowed to track changes in the in the repository in a collaborative and granular way by following some fundamental conventions:
