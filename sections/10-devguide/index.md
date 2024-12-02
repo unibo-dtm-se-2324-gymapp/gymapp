@@ -1,3 +1,9 @@
+---
+title: Developer guide
+has_children: false
+nav_order: 11
+---
+
 <h1>Development guide</h1>
 
 This section explains how to use the software (from a developer perspective)
