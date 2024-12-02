@@ -11,7 +11,7 @@ nav_order: 1
 - Domenico Bonifazio
 (domenico.bonifazio@studio.unibo.it)
 - Alessandro Astolfi
-(alessandro.astolfi@studio.unibo.it)
+(alessandro.astolfi2@studio.unibo.it)
 - Marta Betti
 (marta.betti5@studio.unibo.it)
 - Leilei Zhang
