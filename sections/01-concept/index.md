@@ -6,7 +6,6 @@ nav_order: 2
 
 # **Concept**
 
----
 
 ## Idea
 
@@ -14,7 +13,6 @@ The motivation behind **Sixpack** arises from the personal experiences of our te
 
 **Sixpack** addresses these shortcomings by offering a one-time purchase model at just **€0.79**, giving fitness enthusiasts unlimited access to create and manage personalized workout sessions without restrictions. This approach ensures both affordability and functionality, setting Sixpack apart in the fitness app landscape.
 
----
 
 ## Features
 
@@ -35,7 +33,6 @@ The motivation behind **Sixpack** arises from the personal experiences of our te
 ### Simple Pricing Model
 - A one-time purchase of **€0.79**, offering lifetime access with no recurring charges.
 
----
 
 ## Market Analysis
 
@@ -52,7 +49,6 @@ The fitness app market continues to grow, with notable success among apps offeri
 
 **Sixpack** targets users looking for a low-cost, no-commitment solution, filling a gap in the market for budget-friendly workout management apps.
 
----
 
 ## Cost Analysis and Financial Model
 
@@ -74,7 +70,6 @@ This revenue model removes subscription fatigue for users and creates a sustaina
 | Support & Customer Service        | €3,000                          |
 | **Total Estimated Costs**         | **€25,500**                     |
 
----
 
 ## Profit Calculation
 
@@ -83,7 +78,6 @@ This revenue model removes subscription fatigue for users and creates a sustaina
 
 **Net Profit** = Total Revenue - Total Costs = **€14,000/year**
 
----
 
 ## Use Case Collection
 
@@ -95,6 +89,4 @@ This revenue model removes subscription fatigue for users and creates a sustaina
 
 ### Budget-Conscious Users
 - Individuals looking for a one-time purchase without subscription commitments.
-
----
 
