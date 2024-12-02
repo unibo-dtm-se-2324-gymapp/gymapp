@@ -13,5 +13,5 @@ I think we made a simple, functional software that does what it has to do but th
 
 Since we are a team of 5 people with no computer science background I think that what we did is a quite good for being our first software.
 
-Especially at the beginning, my contribution has been to realize the initial blueprint of both the report and the artifact structure, to which Alessandro added the login and registration mechanism afterwards.
+Especially at the beginning, my contribution has been to realize the initial blueprint of both the report and the artifact structure, to which Domenico added the login and registration mechanism afterwards.
 However, talking about the report, I worked mainly on the versioning and the developer guide sections after deciding to split the tasks. 
