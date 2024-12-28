@@ -1,11 +1,3 @@
----
-title: CI/CD
-has_children: false
-nav_order: 9
----
-
----
-
 # CI/CD
 
 The application Six-Pack backend is based on FastAPI, and the frontend uses Vue.js. The CI/CD process must reflect this.
