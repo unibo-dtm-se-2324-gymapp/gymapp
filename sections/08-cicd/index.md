@@ -75,28 +75,61 @@ The CI/CD pipeline for the Sixpack backend automates integration, testing, and d
        poetry publish --repository testpypi
    ```
 
----
 
 ---
+
 
 ### Frontend (Vue.js) CI/CD Process
 
+The CI/CD pipeline for the Vue.js frontend ensures that all changes are tested and deployed seamlessly. Below are the steps:
+
 1. **Node.js Environment Setup**:
-   - Node.js and npm are configured to manage the Vue.js application.
+   - The pipeline configures Node.js to manage the Vue.js application and its dependencies.
+
+   ```yaml
+   - name: Setup Node.js
+     uses: actions/setup-node@v2
+     with:
+       node-version: '16'
+   ```
 
 2. **Dependency Installation**:
-   - Frontend libraries are installed using npm or Yarn, ensuring up-to-date packages.
+   - The pipeline installs frontend dependencies using `npm install` or `yarn install`.
+
+   ```yaml
+   - name: Install Dependencies
+     run: |
+       npm install
+   ```
 
 3. **Automated Testing**:
-   - Tests include:
-     - Unit tests with Jest to validate individual components.
-     - Integration tests to verify interactions with the backend (e.g., login functionality).
+   - **Jest** runs unit tests to validate Vue.js components.
+   - Integration tests verify the interaction between frontend and backend.
+
+   ```yaml
+   - name: Run Tests
+     run: |
+       npm test
+   ```
 
 4. **Build Process**:
-   - The application is compiled, bundling JavaScript, CSS, and static assets.
+   - The application is compiled and optimized using Webpack, bundling JavaScript, CSS, and other static assets.
+
+   ```yaml
+   - name: Build Application
+     run: |
+       npm run build
+   ```
 
 5. **Deployment**:
-   - The built frontend is deployed to GitHub Pages or an equivalent hosting service.
+   - The compiled assets are deployed to a static hosting platform like **GitHub Pages**, **Vercel**, or **AWS S3**.
+
+   ```yaml
+   - name: Deploy to GitHub Pages
+     run: |
+       npm run deploy
+   ```
+
 
 ---
 
