@@ -1,5 +1,6 @@
 # CI/CD
 
+
 ## Continuous Integration/Continuous Deployment (CI/CD) Workflow for "Sixpack"
 
 The CI/CD pipeline for the Sixpack application is tailored to streamline and optimize the integration, testing, and deployment of changes to both the backend, built with FastAPI, and the frontend, developed using Vue.js. By automating key stages of the development workflow—such as code validation, dependency management, testing, building, and deployment—the pipeline minimizes manual effort and reduces the risk of human error. This ensures that potential issues are detected and addressed early in the development cycle. Furthermore, the pipeline enables the rapid delivery of new features and fixes by supporting continuous updates, keeping the application in a deployable state at all times. This robust process improves the reliability, scalability, and overall performance of Sixpack, ensuring it meets both current requirements and future growth demands.
@@ -23,26 +24,58 @@ The implementation of a robust CI/CD pipeline for the Sixpack application offers
 
 ---
 
+
 ## CI/CD Workflow for Sixpack
 
 ### Backend (FastAPI) CI/CD Process
 
-1. **Python Environment Setup**: 
-   - The pipeline configures Python 3.9 on the CI server to ensure compatibility with FastAPI.
-   - Virtual environments are created to isolate dependencies.
+The CI/CD pipeline for the Sixpack backend automates integration, testing, and deployment to ensure consistent quality and efficiency. Below are the detailed steps:
+
+1. **Python Environment Setup**:
+   - The pipeline configures Python 3.9 to ensure compatibility with FastAPI.
+   - A virtual environment is created to isolate dependencies and prevent conflicts.
+
+   ```yaml
+   - name: Setup Python
+     uses: actions/setup-python@v2
+     with:
+       python-version: '3.9'
+   ```
 
 2. **Dependency Management**:
-   - Dependencies are installed using Poetry, guaranteeing consistency across environments.
+   - Dependencies are managed using **Poetry**, ensuring consistency across environments.
+   - The pipeline installs all required libraries using `poetry install`.
+
+   ```yaml
+   - name: Install Dependencies
+     run: |
+       pip install poetry
+       poetry install
+   ```
 
 3. **Automated Testing**:
-   - Tests are executed using `pytest`, covering:
+   - Tests are executed with **Pytest**, covering:
      - API endpoints (e.g., user registration, session management).
-     - Database interactions.
-     - Edge cases for data validation.
+     - Database operations (e.g., reading and writing data).
+     - Edge cases (e.g., invalid inputs, empty responses).
+
+   ```yaml
+   - name: Run Tests
+     run: |
+       pytest
+   ```
 
 4. **Build and Deployment**:
-   - After successful tests, the backend is packaged and deployed to environments like TestPyPI or production servers.
-   - A GitHub Release is generated for version tracking.
+   - After successful testing, the backend is packaged and deployed to **TestPyPI** or production servers.
+   - A **GitHub Release** is created for version tracking and rollback purposes.
+
+   ```yaml
+   - name: Deploy to TestPyPI
+     run: |
+       poetry publish --repository testpypi
+   ```
+
+---
 
 ---
 
