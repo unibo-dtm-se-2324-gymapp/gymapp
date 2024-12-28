@@ -1,125 +1,126 @@
 # User Guide
 
-This section provides a comprehensive guide on how to use the Six Pack application from the user's perspective. The guide assumes that the application has been correctly deployed and is fully functional.
+This guide provides a detailed walkthrough of the Sixpack application from the user's perspective. It assumes the application has been correctly deployed and is fully functional, enabling users to maximize its features effectively.
 
-# Subscription Process
+---
 
-# 1. Navigating to the Main Page
+## Subscription Process
 
-Upon opening the Six Pack application, the user will land on the main page where they will find a prompt to either Sign Up or Log In if they already have an account.
+### Navigating to the Main Page
 
-# 2. Signing Up for the Application
+Upon opening the Sixpack application, the user lands on the main page, which offers the option to either **Sign Up** or **Log In** if they already have an account.
 
-To create a new account and access the features of the application, follow these steps:
+### Signing Up for the Application
 
-- Click the "Sign Up" Button: On the main screen click the "Sign Up" button, which will bring up a registration form.
+To create a new account and access the application's features, follow these steps:
 
-- Fill in Required Details:
+1. **Click the "Sign Up" Button**: On the main page, click the "Sign Up" button to open the registration form.
 
-    - First Name or Nickname: Enter the user's first name or a preferred nickname. This will be used for personalizing the user experience.
-    - Email Address: Provide a valid email address. The email will be used for account-related notifications and, if necessary, for password recovery.
-    - Password: Create a strong password that meets the application’s security requirements. The password will be used for logging into the application.
+2. **Fill in Required Details**:
+    - **First Name or Nickname**: Enter a first name or preferred nickname for a personalized experience.
+    - **Email Address**: Provide a valid email address for account notifications and password recovery.
+    - **Password**: Create a secure password that meets the application's security requirements.
 
-- Submit the Form: After filling in the details, click the "Submit" button. If all fields are completed correctly, a confirmation message will appear, and the user will be redirected to the login page.
+3. **Submit the Form**: After completing the details, click the "Submit" button. If all fields are valid, a confirmation message appears, and you are redirected to the login page.
 
-# Actual Application Use
+---
 
-# 1. Logging In to the Application
+## Using the Application
 
-After completing the sign-up process, the user can log into their account:
+### Logging In to the Application
 
-- Access the Login Page: Navigate to the login section from the main page of the application.
+After registering, you can log into your account:
 
-- Enter Credentials: Input the registered email address and password into the respective fields.
+1. **Access the Login Page**: Navigate to the login section on the main page.
+2. **Enter Credentials**: Input your registered email address and password.
+3. **Submit**: Click the "Log In" button to access the user dashboard.
 
-- Submit: Click the "Log In" button to access the user dashboard.
+Once logged in, the dashboard displays options to manage and monitor your training sessions.
 
-Once logged in, the user will be redirected to the main dashboard where they can access and manage their training sessions.
+### Creating a Training Session
 
-# 2. Creating a Training Session
+The core functionality of Sixpack is creating customized workout sessions. Follow these steps:
 
-One of the core functionalities of the application is the ability to create customized workout sessions. Follow these steps to create a session:
+1. **Navigate to "Create Session"**:
+   - From the dashboard, click the "Create Session" button to start setting up a new training session.
 
-# 1. Navigate to the "Create Session" Button:
+2. **Input Session Details**:
+   - **Session Name**: Provide a name for the session (e.g., "Full Body Workout").
+   - **Add Exercises**: Click "Add Exercise" to include exercises in the session.
 
-From the user dashboard, click the "Create Session" button to initiate the process of setting up a new training session.
+3. **Adding Exercises**:
+   - **Exercise Name**: Enter the exercise name (e.g., "Push-ups").
+   - **Number of Reps**: Specify the repetitions for the exercise.
+   - **Number of Sets**: Define the sets planned for the exercise.
+   - **Rest Time**: Set the rest period between sets (e.g., 60 seconds).
+   - **Media Links (Optional)**: Add links to images or videos demonstrating the exercise technique.
 
-# 2. Input Session Details:
+4. **Save the Session**:
+   - Click "Save Session" to store the workout. The session is saved in your profile for future use, where it can be reviewed, edited, or deleted.
 
-Upon clicking the button, a form will appear where the user can input the necessary details for their workout session:
+### Modifying an Existing Training Session
 
-    - Session Name: Provide a name for the session (e.g., "Full Body Workout," "Leg Day").
+To update an existing session:
 
-    - Exercise Details: Click the "Add Exercise" button to begin adding exercises to the session.
+1. **View Your Sessions**:
+   - Navigate to the "My Sessions" section to see a list of created sessions.
 
-# 3. Adding Exercises:
+2. **Edit or Delete a Session**:
+   - **Edit**: Click "Edit" next to the session name to update exercise details like reps, sets, or rest time.
+   - **Delete**: Click "Delete" to remove the session. A confirmation prompt ensures no accidental deletions.
 
-For each exercise, the following fields must be filled out:
+---
 
-- Exercise Name: Enter the name of the exercise (e.g., "Push-ups," "Squats").
+## Tracking Progress
 
-- Number of Reps: Specify the number of repetitions (reps) the user intends to complete for the exercise.
+### Marking Sessions as Complete
 
-- Number of Sets (Series): Indicate the number of sets the user plans to perform for the exercise.
+After completing a workout, mark the session as "Completed". This creates a historical log of finished workouts.
 
-- Rest Time: Define the rest period between sets in seconds or minutes (e.g., 60 seconds).
+### Analyzing Progress
 
-- Media Links (Optional): Optionally, users can add links to images or videos demonstrating the proper technique for the exercises. This feature helps users understand and visualize the exercise form. The links can point to external media hosted on platforms like YouTube or other media-sharing sites.
+Access performance data from past sessions to monitor:
+- Exercises completed.
+- Sets and reps achieved.
+- Rest periods logged.
 
-# 4. Save the Session:
+This helps refine future workouts and track improvements over time.
 
-After filling out the exercise details, click the "Save Session" button to store the session. This session will now appear in the user's profile, and they can access it later to review, modify, or delete the session.
+---
 
+## Additional Features and Functionalities
 
-# 3. Modifying an Existing Training Session
+### Timer Integration
 
-Once a training session has been created, users can modify it at any time:
+The application includes a built-in timer for tracking rest intervals between exercises. Users can:
+- Customize the timer to match their preferred rest periods.
+- Ensure consistent and effective workout pacing.
 
-1. View the List of Created Sessions:
+### Media Support
 
-Navigate to the "My Sessions" section, where the user can view all previously created training sessions.
+Sixpack supports the inclusion of media for visual exercise references:
+- Upload or link images/videos demonstrating exercises.
+- Embedded media enhances understanding of proper techniques.
+- The use of optional tools, like Tkinter, enriches the user experience with interactive visuals.
 
-2. Edit or Delete a Session:
+---
 
-    - To edit a session, click the "Edit" button next to the session name. The user will be taken to a page where they can update exercise details (reps, sets, rest times, etc.).
+## Session Reset
 
-    - To delete a session, click the "Delete" button. This will remove the session from the application’s records. A confirmation prompt will appear before the session is deleted to prevent accidental removal.
+Sixpack offers the ability to reset session values:
 
-# 4. Tracking Progress
+1. **Clear Inputs**:
+   - Reset all fields in a session to remove previously entered data.
 
-The Six Pack application allows users to track their workout progress over time by providing a historical view of their sessions:
+2. **Reset Media Files**:
+   - Clear any attached images or video links, ensuring the session is refreshed completely.
 
-1. Marking Sessions as Complete:
+This feature is ideal for starting a new workout plan without leftover data from previous sessions.
 
-After finishing a workout, users can mark a session as "Completed". This helps track which sessions have been successfully completed and offers a record of past workouts.
+---
 
-2. Analyzing Progress:
+## Conclusion
 
-Users can review the performance data of their past sessions, including details such as the number of exercises completed, sets, reps, and rest periods. This feature allows users to monitor their progress and adjust their workout plan accordingly.
+The Sixpack application is intuitive and user-friendly, offering a comprehensive platform for organizing, tracking, and improving workout routines. From account registration to session management and progress tracking, every aspect is designed for ease of use. The inclusion of customizable features, such as timers and media support, ensures users have all the tools necessary to achieve their fitness goals efficiently.
 
-# 5. Additional Features and Functionalities
-- Timer Integration:
-
-    The Six Pack application includes a built-in timer to track rest intervals between exercises. The timer can be customized to match the user’s preferred rest period, ensuring that the user can maintain an effective workout schedule.
-
-- Media Support:
-
-    Users can upload or link to images and videos demonstrating various exercises. These media files can be embedded within the application to provide visual cues for proper form. The use of Tkinter, an optional feature, allows the inclusion of images and videos directly within the application interface, providing an enriched user experience.
-
-# 6. Session Reset
-
-Users can reset the values in their session to start fresh:
-
-1. Clear Inputs:
-
-The application provides an option to reset the fields in any given training session, which removes all previously entered data. This feature is helpful for users who want to start creating a new workout plan without any leftover data from previous sessions.
-
-2. Resetting Media Files:
-
-Along with clearing text fields, any attached media (images or video links) can also be reset. This ensures that users can entirely refresh their session data, including both the exercises and associated media.
-
-# Conclusion
-
-The Six Pack application is designed to be intuitive and user-friendly, offering a range of features to help users organize, track, and improve their workout routines. From the sign-up process to managing sessions and tracking progress, each aspect of the application is streamlined for ease of use. With the option to include media for visual references, as well as a built-in timer for better workout management, the application ensures that users have all the tools they need to achieve their fitness goals effectively and efficiently.
-
-By following this user guide, individuals can navigate through the process of setting up and managing their personalized workout sessions with ease, making Six Pack a valuable companion for anyone committed to their fitness journey.
+By following this guide, users can seamlessly navigate and utilize the application, making Sixpack a reliable companion for their fitness journey.
