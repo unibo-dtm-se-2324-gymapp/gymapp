@@ -1,9 +1,3 @@
----
-title: User guide
-has_children: false
-nav_order: 10
----
-
 # User Guide
 
 This section provides a comprehensive guide on how to use the Six Pack application from the user's perspective. The guide assumes that the application has been correctly deployed and is fully functional.
