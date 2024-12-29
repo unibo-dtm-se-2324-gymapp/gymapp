@@ -82,3 +82,10 @@ Timely notifications can significantly enhance user adherence to fitness goals.
 
 - **Features**: Push notifications for workout reminders, session completions, and progress milestones, integrated with calendar tools such as Google Calendar.
 - **Benefits**: Notifications keep users engaged and consistent, ensuring they remain aligned with their fitness objectives.
+
+
+### 7. Timer Functionality
+A built-in timer would optimize workout efficiency by managing exercise durations and rest periods.
+
+- **Features**: Customizable interval timers for exercises and breaks.
+- **Benefits**: Timers promote disciplined training routines and precise rest tracking.
