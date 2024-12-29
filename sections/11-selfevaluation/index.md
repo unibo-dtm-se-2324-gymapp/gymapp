@@ -1,9 +1,3 @@
----
-title: Self-evaluation
-has_children: false
-nav_order: 12
----
-
 # Self-evaluation
 
 - An individual section is required for each member of the group
