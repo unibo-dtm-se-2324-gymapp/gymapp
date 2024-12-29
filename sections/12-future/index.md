@@ -54,3 +54,10 @@ Syncing the application with popular fitness devices (e.g., Fitbit, Apple Watch)
 
 - **Features**: Metrics such as heart rate, calories burned, and steps could be integrated directly into user workout sessions.
 - **Benefits**: This feature would provide a richer dataset for users, enabling detailed performance analysis and fostering a comprehensive approach to fitness tracking.
+
+
+### 3. Advanced Progress Tracking and Visualization
+A progress dashboard would allow users to monitor their fitness achievements over time.
+
+- **Features**: Graphs and charts to visualize metrics like workout frequency, total weights lifted, and session durations.  
+- **Benefits**: Visual feedback motivates users to stay consistent and allows them to celebrate their progress.
