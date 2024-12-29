@@ -20,6 +20,13 @@ The application relies on in-memory data structures to store user sessions and w
 - **Resolution**: The integration of a database management system such as SQLite or PostgreSQL is essential to enable persistent storage, ensuring user data remains intact across sessions and restarts.
 
 
+### 3. Basic Authentication and Session Management
+Authentication and session management are currently handled through browser cookies, which are limited in functionality and security.
+
+- **Impact**: Cookies provide insufficient security for handling sensitive data, particularly in multi-device environments.
+- **Resolution**: A shift to token-based authentication using JSON Web Tokens (JWT) would provide a more secure and scalable solution. This approach allows for stateless session management, enabling features such as session expiration, refresh tokens, and device-specific access control.
+
+
 
 # What is Missing
 
