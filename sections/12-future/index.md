@@ -61,3 +61,10 @@ A progress dashboard would allow users to monitor their fitness achievements ove
 
 - **Features**: Graphs and charts to visualize metrics like workout frequency, total weights lifted, and session durations.  
 - **Benefits**: Visual feedback motivates users to stay consistent and allows them to celebrate their progress.
+
+
+### 4. Multimedia Integration
+Allowing users to upload or link instructional videos and images to exercises would enhance the educational aspect of the platform.
+
+- **Features**: Embedded media such as video demonstrations or step-by-step images for proper exercise technique.
+- **Benefits**: This addition would cater to beginners or users unfamiliar with certain exercises, making the application more inclusive.
