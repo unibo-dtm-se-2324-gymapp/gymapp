@@ -26,7 +26,11 @@ Authentication and session management are currently handled through browser cook
 - **Impact**: Cookies provide insufficient security for handling sensitive data, particularly in multi-device environments.
 - **Resolution**: A shift to token-based authentication using JSON Web Tokens (JWT) would provide a more secure and scalable solution. This approach allows for stateless session management, enabling features such as session expiration, refresh tokens, and device-specific access control.
 
+### 4. Outdated User Interface (UI)
+The UI, though functional, lacks modern design principles and responsiveness.
 
+- **Impact**: The simplistic design may not meet user expectations, especially when compared to contemporary fitness applications with highly engaging and visually appealing interfaces.
+- **Resolution**: The adoption of modern frontend frameworks such as TailwindCSS or Bootstrap can enhance visual appeal and ensure the interface is optimized for various screen sizes and devices.
 
 # What is Missing
 
