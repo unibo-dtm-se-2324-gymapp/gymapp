@@ -13,6 +13,13 @@ Robust software systems are underpinned by rigorous testing protocols, which are
 - **End-to-End Testing**: The application does not simulate user workflows (e.g., adding exercises, tracking progress) in automated test environments. Such tests are critical for ensuring a smooth and error-free user experience in real-world scenarios.
 
 
+### 2. Volatile Data Storage
+The application relies on in-memory data structures to store user sessions and workout information, which is inherently non-persistent.
+
+- **Impact**: Users lose all data when the server is restarted, undermining the reliability and usability of the platform for long-term progress tracking.
+- **Resolution**: The integration of a database management system such as SQLite or PostgreSQL is essential to enable persistent storage, ensuring user data remains intact across sessions and restarts.
+
+
 
 # What is Missing
 
