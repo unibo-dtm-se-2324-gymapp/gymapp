@@ -3,6 +3,17 @@
 The **Six-Pack** application represents an innovative approach to fitness management, enabling users to organize and track their workout sessions with ease. While the application demonstrates significant potential through its foundational features, there are several limitations and opportunities for improvement. This section provides a detailed analysis of current issues and outlines potential advancements to transform Six-Pack into a comprehensive and competitive platform.
 
 
+## Known Issues
+
+### 1. Insufficient Testing Framework
+Robust software systems are underpinned by rigorous testing protocols, which are currently underdeveloped in the Six-Pack application.
+
+- **Unit Testing**: Core functionalities such as creating, saving, and modifying workout sessions lack automated unit tests. The absence of these tests increases the risk of undetected regressions, particularly as new features are introduced.
+- **Integration Testing**: There is no systematic testing to validate the interaction between the backend (Flask) and the frontend. For instance, data inconsistencies or session-saving issues could remain undetected due to the lack of middleware-level validation.
+- **End-to-End Testing**: The application does not simulate user workflows (e.g., adding exercises, tracking progress) in automated test environments. Such tests are critical for ensuring a smooth and error-free user experience in real-world scenarios.
+
+
+
 # What is Missing
 
 Comprehensive Testing:
