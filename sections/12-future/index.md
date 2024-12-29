@@ -68,3 +68,10 @@ Allowing users to upload or link instructional videos and images to exercises wo
 
 - **Features**: Embedded media such as video demonstrations or step-by-step images for proper exercise technique.
 - **Benefits**: This addition would cater to beginners or users unfamiliar with certain exercises, making the application more inclusive.
+
+
+### 5. Social and Gamification Features
+Introducing gamification and community-driven features would encourage user engagement and foster accountability.
+
+- **Features**: Leaderboards, achievement badges, and social sharing capabilities for milestones or progress.
+- **Benefits**: Gamification can motivate users to maintain consistency, while social features create a sense of community among users.
