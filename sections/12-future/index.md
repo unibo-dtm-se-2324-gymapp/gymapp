@@ -6,89 +6,109 @@ The **Six-Pack** application represents an innovative approach to fitness manage
 ## Known Issues
 
 ### 1. Insufficient Testing Framework
-Robust software systems are underpinned by rigorous testing protocols, which are currently underdeveloped in the Six-Pack application.
+Robust software systems require thorough testing, which is currently lacking in the Six-Pack application. Key areas for improvement include:
 
-- **Unit Testing**: Core functionalities such as creating, saving, and modifying workout sessions lack automated unit tests. The absence of these tests increases the risk of undetected regressions, particularly as new features are introduced.
-- **Integration Testing**: There is no systematic testing to validate the interaction between the backend (Flask) and the frontend. For instance, data inconsistencies or session-saving issues could remain undetected due to the lack of middleware-level validation.
-- **End-to-End Testing**: The application does not simulate user workflows (e.g., adding exercises, tracking progress) in automated test environments. Such tests are critical for ensuring a smooth and error-free user experience in real-world scenarios.
+#### Unit Testing
+- **Issue**: Core functionalities, such as creating, saving, and modifying workout sessions, lack automated unit tests.
+- **Impact**: Increases the risk of undetected regressions, particularly with the introduction of new features.
 
+#### Integration Testing
+- **Issue**: No systematic validation exists for interactions between the backend (Flask) and the frontend.
+- **Impact**: Potential data inconsistencies or session-saving issues may remain undetected due to the lack of middleware-level validation.
+
+#### End-to-End Testing
+- **Issue**: The application does not simulate user workflows, such as adding exercises or tracking progress, in automated test environments.
+- **Impact**: This increases the likelihood of undetected bugs affecting real-world user experiences.
+
+---
 
 ### 2. Volatile Data Storage
-The application relies on in-memory data structures to store user sessions and workout information, which is inherently non-persistent.
+The application relies on in-memory data structures to store user sessions and workout information.
 
-- **Impact**: Users lose all data when the server is restarted, undermining the reliability and usability of the platform for long-term progress tracking.
-- **Resolution**: The integration of a database management system such as SQLite or PostgreSQL is essential to enable persistent storage, ensuring user data remains intact across sessions and restarts.
+- **Impact**: Data is lost when the server is restarted, undermining the platform’s reliability for long-term progress tracking.
+- **Resolution**: Integrate a relational database management system, such as SQLite or PostgreSQL, to enable persistent storage and retain user data across sessions.
 
+---
 
 ### 3. Basic Authentication and Session Management
-Authentication and session management are currently handled through browser cookies, which are limited in functionality and security.
+The current authentication and session management system uses browser cookies, which have limitations in functionality and security.
 
-- **Impact**: Cookies provide insufficient security for handling sensitive data, particularly in multi-device environments.
-- **Resolution**: A shift to token-based authentication using JSON Web Tokens (JWT) would provide a more secure and scalable solution. This approach allows for stateless session management, enabling features such as session expiration, refresh tokens, and device-specific access control.
+- **Impact**: Cookies do not provide sufficient security, particularly for sensitive data or multi-device environments.
+- **Resolution**: Shift to token-based authentication, such as JSON Web Tokens (JWT), to enable stateless session management with enhanced features like session expiration, refresh tokens, and device-specific access control.
+
+---
 
 ### 4. Outdated User Interface (UI)
-The UI, though functional, lacks modern design principles and responsiveness.
+While functional, the current UI lacks modern design principles and responsiveness.
 
-- **Impact**: The simplistic design may not meet user expectations, especially when compared to contemporary fitness applications with highly engaging and visually appealing interfaces.
-- **Resolution**: The adoption of modern frontend frameworks such as TailwindCSS or Bootstrap can enhance visual appeal and ensure the interface is optimized for various screen sizes and devices.
+- **Impact**: Users may perceive the design as outdated, reducing engagement.
+- **Resolution**: Use modern frontend frameworks like TailwindCSS or Bootstrap to enhance visual appeal and ensure optimization for various screen sizes and devices.
 
+---
 
 ### 5. Limited Error Handling and Feedback
-Error handling within the application is rudimentary, often providing users with generic or unclear error messages.
+Error handling mechanisms are rudimentary and often fail to provide actionable feedback.
 
-- **Impact**: Poor error messaging reduces user trust and complicates troubleshooting, particularly for non-technical users.
-- **Resolution**: Implementing structured error handling with Flask’s `errorhandler` decorator can provide context-specific error feedback. User-facing errors should include actionable information, while backend logs should capture detailed technical insights for developers.
+- **Impact**: Users encounter generic error messages that do not guide resolution, reducing trust in the application.
+- **Resolution**: Implement structured error handling using Flask’s `errorhandler` decorator for context-specific feedback. Provide clear, actionable user-facing messages and detailed backend logs for developers.
 
+---
 
 ## Potential Future Developments
 
 ### 1. Native Mobile Application
-Developing dedicated mobile applications for iOS and Android would expand accessibility and enhance usability.
+Developing dedicated mobile applications for iOS and Android could significantly enhance accessibility.
 
-- **Features**: Native apps could leverage mobile-specific functionalities such as push notifications, offline mode, and camera integration for progress tracking.
-- **Benefits**: By catering to mobile users, the application would address a significant segment of the target audience who rely on smartphones during workouts.
+- **Features**: Leverage push notifications, offline mode, and camera integration for progress tracking.
+- **Benefits**: Serve mobile-first users, who constitute a significant segment of the target audience.
 
+---
 
 ### 2. Integration with Wearable Fitness Devices
-Syncing the application with popular fitness devices (e.g., Fitbit, Apple Watch) would provide automatic tracking of key performance metrics.
+Connecting the application to popular fitness devices can expand its capabilities.
 
-- **Features**: Metrics such as heart rate, calories burned, and steps could be integrated directly into user workout sessions.
-- **Benefits**: This feature would provide a richer dataset for users, enabling detailed performance analysis and fostering a comprehensive approach to fitness tracking.
+- **Features**: Sync metrics such as heart rate, calories burned, and steps into workout sessions.
+- **Benefits**: Provide users with richer data and enable comprehensive performance analysis.
 
+---
 
 ### 3. Advanced Progress Tracking and Visualization
-A progress dashboard would allow users to monitor their fitness achievements over time.
+A progress dashboard can help users monitor their fitness achievements over time.
 
-- **Features**: Graphs and charts to visualize metrics like workout frequency, total weights lifted, and session durations.  
-- **Benefits**: Visual feedback motivates users to stay consistent and allows them to celebrate their progress.
+- **Features**: Display metrics like workout frequency, total weights lifted, and session durations through graphs and charts.
+- **Benefits**: Motivate users by providing visual feedback and celebrating progress.
 
+---
 
 ### 4. Multimedia Integration
-Allowing users to upload or link instructional videos and images to exercises would enhance the educational aspect of the platform.
+Adding instructional videos and images can enhance the educational aspect of the platform.
 
-- **Features**: Embedded media such as video demonstrations or step-by-step images for proper exercise technique.
-- **Benefits**: This addition would cater to beginners or users unfamiliar with certain exercises, making the application more inclusive.
+- **Features**: Allow users to attach embedded media, such as exercise demonstration videos or step-by-step images.
+- **Benefits**: Help beginners and users unfamiliar with specific exercises, making the platform more inclusive.
 
+---
 
 ### 5. Social and Gamification Features
-Introducing gamification and community-driven features would encourage user engagement and foster accountability.
+Introducing gamification and social elements fosters accountability and engagement.
 
-- **Features**: Leaderboards, achievement badges, and social sharing capabilities for milestones or progress.
-- **Benefits**: Gamification can motivate users to maintain consistency, while social features create a sense of community among users.
+- **Features**: Include leaderboards, achievement badges, and progress-sharing capabilities.
+- **Benefits**: Encourage consistency through motivation and build a community-driven user experience.
 
+---
 
 ### 6. Real-Time Notifications
-Timely notifications can significantly enhance user adherence to fitness goals.
+Timely reminders and updates can help users adhere to their fitness routines.
 
-- **Features**: Push notifications for workout reminders, session completions, and progress milestones, integrated with calendar tools such as Google Calendar.
-- **Benefits**: Notifications keep users engaged and consistent, ensuring they remain aligned with their fitness objectives.
+- **Features**: Push notifications for workout reminders, session completions, and progress milestones, with integration into calendar tools like Google Calendar.
+- **Benefits**: Keep users engaged and aligned with their fitness goals.
 
+---
 
 ### 7. Timer Functionality
-A built-in timer would optimize workout efficiency by managing exercise durations and rest periods.
+A built-in timer can optimize workout efficiency.
 
-- **Features**: Customizable interval timers for exercises and breaks.
-- **Benefits**: Timers promote disciplined training routines and precise rest tracking.
+- **Features**: Customizable interval timers for exercises and rest periods.
+- **Benefits**: Promote disciplined routines and precise rest tracking.
 
 
 ## Strategic Roadmap for Implementation
