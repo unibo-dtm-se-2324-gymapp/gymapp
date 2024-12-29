@@ -1,9 +1,3 @@
----
-title: Future work
-has_children: false
-nav_order: 13
----
-
 # Known Issues and Future Work for the "Six-Pack" Application
 
 This section outlines current gaps, issues, and potential future improvements to enhance the "Six-Pack" application, which helps users organize their workout sessions by tracking exercises, sets, and reps.
