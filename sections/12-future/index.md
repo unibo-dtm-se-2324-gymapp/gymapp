@@ -32,6 +32,15 @@ The UI, though functional, lacks modern design principles and responsiveness.
 - **Impact**: The simplistic design may not meet user expectations, especially when compared to contemporary fitness applications with highly engaging and visually appealing interfaces.
 - **Resolution**: The adoption of modern frontend frameworks such as TailwindCSS or Bootstrap can enhance visual appeal and ensure the interface is optimized for various screen sizes and devices.
 
+
+### 5. Limited Error Handling and Feedback
+Error handling within the application is rudimentary, often providing users with generic or unclear error messages.
+
+- **Impact**: Poor error messaging reduces user trust and complicates troubleshooting, particularly for non-technical users.
+- **Resolution**: Implementing structured error handling with Flask’s `errorhandler` decorator can provide context-specific error feedback. User-facing errors should include actionable information, while backend logs should capture detailed technical insights for developers.
+
+
+
 # What is Missing
 
 Comprehensive Testing:
