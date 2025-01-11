@@ -16,7 +16,7 @@ Together with Alessandro, I worked on improving the app using AI—initially att
 
 ## Leilei's section:
 
-As a student with an economics background, I was assigned, along with Klaudia, to complete the sessions number 8,9 and 10. Personally, I then worked on finishing the first and second sections of the project.
+As a student with an economics background, I was assigned, along with Klaudia, to complete the sessions number 8,9 and 12. Personally, I then worked on finishing the first and second sections of the project.
 For Session 1, I did a lot of researches on how a fitness tracker application should look and gathered inspiration from existing apps on the market. I explored their features, user interfaces, and overall design to create a solid foundation for our project. This research helped us understand the expectations and standards in the market.
 For Session 2, which focused on requirements, I collaborated with my colleague Domenico. He helped me refine the technical details and ensure everything was clear and well-organized. This teamwork made the process funny and inspiring.
 At first, managing our project structure was a bit challenging for us.
