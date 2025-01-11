@@ -3,9 +3,7 @@
 ## Marta's section:
 
 I think we made a simple, functional software that does what it has to do but that at the same time can be improved by adding new functionalities in order to offer a better product to the customer such as a timer or a way to link images or videos to the exercise.
-
 Since we are a team of 5 people with no computer science background I think that what we did is a quite good for being our first software.
-
 Especially at the beginning, my contribution has been to realize the initial blueprint of both the report and the artifact structure, to which Domenico added the login and registration mechanism afterwards.
 However, talking about the report, I worked mainly on the versioning and the developer guide sections after deciding to split the tasks.
 
@@ -32,5 +30,6 @@ It was a good opportunity to understand the basic and essential elements of deve
 ## Klaudia's section:
 
 As a team of five individuals without a formal background in computer science, we successfully developed a functional software application that meets its core objectives.
-It took us some time to develop the project, but fortunately, I had an excellent team to collaborate and exchange ideas with. Marta played a crucial role in its realization, as she was the first to establish the structure for both the report and the actual development of our project.
+It took us some time to develop the project, but fortunately, I had an excellent team to collaborate and exchange ideas with. 
+Marta played a crucial role in its realization, as she was the first to establish the structure for both the report and the actual development of our project.
 Domenico and Alessandro demonstrated outstanding teamwork, focusing on the project's core elements. Building on their work, I, together with Leilei, finalized the report's final sections with a greater emphasis on continuous integration, the user guide, and future improvements, leveraging artificial intelligence to enhance these aspects.
